@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, TextInput, View, Text } from 'react-native';
+import { TextInput, View, Text } from 'react-native';
 import { globalStyles } from '../styles/global.js';
 import { Formik } from 'formik';
 import * as yup from 'yup';
@@ -8,13 +8,13 @@ import FlatButton from '../shared/button.js';
 const schema = yup.object({
   title: yup.string()
     .required()
-    .min(4),
+    .min(2),
   body: yup.string()
     .required()
-    .min(8)
+    .min(2)
 });
 
-export default function Form({ addReview }) {
+export default function Form({ addDetail }) {
 
   return (
     
@@ -24,7 +24,7 @@ export default function Form({ addReview }) {
         validationSchema={schema}
         onSubmit={(values, actions) => {
           actions.resetForm(); 
-          addReview(values);
+          addDetail(values);
         }}
       >
         {props => (

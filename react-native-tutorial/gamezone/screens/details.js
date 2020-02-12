@@ -4,7 +4,6 @@ import { globalStyles, images } from '../styles/global';
 import Card from '../shared/card';
 
 export default function Details({ navigation }) {
-  const rating = navigation.getParam('rating');
   
   return (
     <View style={globalStyles.container}>
