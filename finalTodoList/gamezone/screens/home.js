@@ -9,9 +9,9 @@ import Form from './form';
 export default function Home({ navigation }) {
   const [modalOpen, setModalOpen] = useState(false);
   const [details, setDetails] = useState([
-    { title: 'Zelda, Breath of Fresh Air', body: 'lorem ipsum', key: '1' },
-    { title: 'Gotta Catch Them All (again)', body: 'lorem ipsum', key: '2' },
-    { title: 'Not So "Final" Fantasy', body: 'lorem ipsum', key: '3' },
+    { title: 'Morning workout', body: 'Training on the morning', key: '1' },
+    { title: 'Call mom', body: 'lorem ipsum', key: '2' },
+    { title: 'Pay rent', body: 'lorem ipsum', key: '3' },
   ]);
 
   const addDetail = (detail) => {

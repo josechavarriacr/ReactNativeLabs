@@ -1,22 +1,9 @@
-// import React from 'react';
-// import { StyleSheet, View, Text } from 'react-native';
-// import { globalStyles } from '../styles/global';
-
-// export default function Login() {
-//   return (
-//     <View style={globalStyles.container}>
-//       <Text>Login Screen</Text>
-//     </View>
-//   );
-// }
-
-
 import React from 'react';
 import { TextInput, View, Text } from 'react-native';
-import { globalStyles } from '../styles/global.js.js';
+import { globalStyles } from '../styles/global';
 import { Formik } from 'formik';
 import * as yup from 'yup';
-import FlatButton from '../shared/button.js.js';
+import FlatButton from '../shared/button';
 
 const schema = yup.object({
   user: yup.string()
