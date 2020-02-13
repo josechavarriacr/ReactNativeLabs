@@ -22,6 +22,9 @@ export default function Home({ navigation }) {
     setModalOpen(false);
   };
 
+  const removeLogin = () => {
+    setModalOpen(false);
+  }
   return (
     <View style={globalStyles.container}>
   
