@@ -1,0 +1,10 @@
+{
+  "devToolsPort": 19002,
+  "expoServerPort": 19000,
+  "packagerPort": 19001,
+  "packagerPid": 11472,
+  "expoServerNgrokUrl": "https://ng-psy.anonymous.testreduxfetch.exp.direct",
+  "packagerNgrokUrl": "https://packager.ng-psy.anonymous.testreduxfetch.exp.direct",
+  "ngrokPid": 15252,
+  "webpackServerPort": 19006
+}

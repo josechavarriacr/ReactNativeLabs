@@ -1,9 +1,9 @@
 import React from 'react';
 import { TextInput, View, Text } from 'react-native';
-import { globalStyles } from '../styles/global.js.js';
+import { globalStyles } from '../styles/global';
 import { Formik } from 'formik';
 import * as yup from 'yup';
-import FlatButton from '../shared/button.js.js';
+import FlatButton from '../shared/button';
 
 const schema = yup.object({
   title: yup.string()
